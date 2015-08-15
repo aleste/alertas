@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">alertas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="estado_conexion">Estado de la conexion</string>
+</resources>
