@@ -7,6 +7,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -46,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void enviarAlerta(View view) {
         Log.i("MainActivity", "Enviar alerta click");
+
+        SmsManager smsManager =     SmsManager.getDefault();
+        smsManager.sendTextMessage("22210", null, "AUBASA", null, null);
+
     }
 
     /**
