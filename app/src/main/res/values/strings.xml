@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="estado_conexion">Estado de la conexion</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>
